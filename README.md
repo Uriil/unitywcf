@@ -6,9 +6,9 @@ A library that allows the simple integration of Microsoft's Unity IoC container 
 
 ## Where do I get Unity.WCF binaries from?
 
-You can download the code or dll from CodePlex but it is strongly recommended that you use the NuGet package, downloadable from within Visual Studio.
+You can download the code or dll from GitHub but it is strongly recommended that you use the NuGet package, downloadable from within Visual Studio.
 
-Using the Package Manager Console, type install-package Unity.WCF. Alternatively, you can use the Package Manager GUI and search for Unity.WCF. The Unity.WCF NuGet package will automatically add all the necessary references including the Unity NuGet package.
+Using the Package Manager Console, type Install-Package UnityWCF. Alternatively, you can use the Package Manager GUI and search for UnityWCF. The UnityWCF NuGet package will automatically add all the necessary references including the Unity NuGet package.
 
 ## How do I use Unity.Wcf
 
