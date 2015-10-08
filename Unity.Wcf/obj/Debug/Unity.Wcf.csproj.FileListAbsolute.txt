@@ -1,0 +1,14 @@
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Unity.Wcf.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Unity.Wcf.pdb
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.xml
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\obj\Debug\Unity.Wcf.csprojResolveAssemblyReference.cache
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\obj\Debug\Unity.Wcf.dll
+D:\ProgrammingWorkspace\UnityWCF\Unity.Wcf\obj\Debug\Unity.Wcf.pdb
