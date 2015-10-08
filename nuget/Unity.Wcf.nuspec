@@ -6,7 +6,7 @@
     <authors>Paul Hiles</authors>
     <owners>DevTrends</owners>
     <licenseUrl>http://unitywcf.codeplex.com/license</licenseUrl>
-    <projectUrl>http://unitywcf.codeplex.com/</projectUrl>
+    <projectUrl>https://github.com/Uriil/unitywcf</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unity.Wcf is a library that allows simple Integration of Microsoft's Unity IoC container with WCF. This project includes a bespoke InstanceProvider that creates a child container per client connection and disposes of all registered IDisposable instances once the connection is terminated.</description>
     <tags>wcf unity ioc di</tags>
