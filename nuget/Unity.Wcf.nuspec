@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Unity.Wcf</id>
-    <version>2.0.0</version>
+    <id>UnityWCF</id>
+    <version>2.0.5789.38095</version>
     <authors>Uriil</authors>
     <owners>DevTrends</owners>
     <licenseUrl>http://unitywcf.codeplex.com/license</licenseUrl>
@@ -10,11 +10,16 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unity.Wcf is a library that allows simple Integration of Microsoft's Unity IoC container with WCF. This project includes a bespoke InstanceProvider that creates a child container per client connection and disposes of all registered IDisposable instances once the connection is terminated.</description>
     <tags>wcf unity ioc di</tags>
-	<dependencies>
+    <dependencies>
       <dependency id="Unity" version="4.0.1" />
     </dependencies>
-	<frameworkAssemblies>
-		<frameworkAssembly assemblyName="System.ServiceModel.Activation" />
-	</frameworkAssemblies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ServiceModel.Activation" />
+    </frameworkAssemblies>
   </metadata>
+  <files>
+    <file src="content/Unity.Wcf.README.txt" target="content" />
+    <file src="content/WcfServiceFactory.cs.pp" target="content" />
+    <file src="lib/net40/Unity.Wcf.dll" target="lib/net40" />
+  </files>
 </package>

@@ -2,3 +2,4 @@ packages
 .vs
 obj
 bin
+/Unity.Wcf/signkey.pfx
