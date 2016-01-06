@@ -12,7 +12,7 @@ namespace Unity.Wcf
         {
             if (container == null)
             {
-                throw new ArgumentNullException(nameof(container));
+                throw new ArgumentNullException("container");
             }
 
             ApplyServiceBehaviors(container);

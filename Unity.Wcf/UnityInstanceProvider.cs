@@ -15,12 +15,12 @@ namespace Unity.Wcf
         {
             if (container == null)
             {
-                throw new ArgumentNullException(nameof(container));
+                throw new ArgumentNullException("container");
             }
 
             if (contractType == null)
             {
-                throw new ArgumentNullException(nameof(contractType));
+                throw new ArgumentNullException("contractType");
             }
 
             _container = container;
