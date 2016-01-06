@@ -4,7 +4,7 @@ PARAM
 	[string] $ApiKey
 )
 
-$destinationDll = "lib\net40\Unity.Wcf.dll"
+$destinationDll = "lib\net45\Unity.Wcf.dll"
 
 Write-Host 'Copying dll file...'
 Copy-Item ..\Unity.Wcf\bin\Release\Unity.Wcf.dll $destinationDll
@@ -19,11 +19,12 @@ $nuspec.Save("$pwd\$nuspecFile")
 Write-Host 'Publishing package...'
 .\nuget.exe pack $nuspecFile
 .\nuget.exe setapikey $ApiKey
-#.\nuget.exe push "UnityWcf.$version.nupkg"
+.\nuget.exe push "UnityWcf.$version.nupkg"
 
 Write-Host 'Removing files...'
 Remove-Item *.dll
 Remove-Item *.xml
 Remove-Item *.nupkg
+Remove-Item -Path lib -Recurse
 
 Write-Host 'Done'

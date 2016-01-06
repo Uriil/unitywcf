@@ -13,7 +13,7 @@ namespace Unity.Wcf
         {
             if (instanceProvider == null)
             {
-                throw new ArgumentNullException(nameof(instanceProvider));
+                throw new ArgumentNullException("instanceProvider");
             }
 
             _instanceProvider = instanceProvider;

@@ -12,7 +12,7 @@ namespace Unity.Wcf
         {
             if (container == null)
             {
-                throw new ArgumentNullException(nameof(container));
+                throw new ArgumentNullException("container");
             }
 
             return _childContainer ?? (_childContainer = container.CreateChildContainer());
@@ -20,7 +20,10 @@ namespace Unity.Wcf
 
         public void DisposeOfChildContainer()
         {
-            _childContainer?.Dispose();
+            if (_childContainer != null)
+            {
+                _childContainer.Dispose();
+            }
         }
 
         public void Attach(InstanceContext owner)
