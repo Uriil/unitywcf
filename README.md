@@ -1,4 +1,4 @@
-**This repository was copied from https://unitywcf.codeplex.com/**
+**This repository is merged into https://github.com/ViceIce/unity.wcf**
 
 ## What does Unity.WCF do?
 
